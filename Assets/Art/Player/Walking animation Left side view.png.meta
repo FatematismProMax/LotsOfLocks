@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 80d3a43e21760074d99a3ab3d11484dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walking animation Left side view_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 29
+        width: 240
+        height: 1282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f2ab182661d0d4489217cdeedde882
+      internalID: 1687504041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking animation Left side view_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 34
+        width: 404
+        height: 1277
+      alignment: 9
+      pivot: {x: 0.73241746, y: 0.5294116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c2188c9a861a47a7661256e99f831
+      internalID: 139462641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking animation Left side view_4
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 23
+        width: 238
+        height: 1275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366e2e8bca186eb4897d1be061e19cbf
+      internalID: 347057757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking animation Left side view_5
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 0
+        width: 373
+        height: 1299
+      alignment: 9
+      pivot: {x: 0.7391469, y: 0.5505987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2f57c11bf4aa14d8f7aa4bf87e3ef8
+      internalID: -1864829666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking animation Left side view_7
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 19
+        width: 240
+        height: 1280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ada21116371e24db78e655f8ed3a1a
+      internalID: -1788679284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Walking animation Left side view_0: 1687504041
+      Walking animation Left side view_1: -2063384261
+      Walking animation Left side view_10: 1177712445
+      Walking animation Left side view_11: 1989184698
+      Walking animation Left side view_12: 624035293
+      Walking animation Left side view_13: 682960332
+      Walking animation Left side view_14: -710659430
+      Walking animation Left side view_15: 223181643
+      Walking animation Left side view_16: 1662243725
+      Walking animation Left side view_17: 1634790212
+      Walking animation Left side view_18: 1422791217
+      Walking animation Left side view_19: 1181390789
+      Walking animation Left side view_2: 139462641
+      Walking animation Left side view_20: 960225396
+      Walking animation Left side view_21: 894076907
+      Walking animation Left side view_22: 1866210730
+      Walking animation Left side view_23: 2087679546
+      Walking animation Left side view_24: 465423129
+      Walking animation Left side view_25: 2015159667
+      Walking animation Left side view_26: -281344484
+      Walking animation Left side view_27: -1599475178
+      Walking animation Left side view_28: 1136837311
+      Walking animation Left side view_29: 1440123385
+      Walking animation Left side view_3: -1539285184
+      Walking animation Left side view_30: 2084158374
+      Walking animation Left side view_31: -1783921485
+      Walking animation Left side view_32: -1826741385
+      Walking animation Left side view_33: 1211722204
+      Walking animation Left side view_34: -1136050202
+      Walking animation Left side view_35: 1098873937
+      Walking animation Left side view_36: -1880103821
+      Walking animation Left side view_37: 1170507912
+      Walking animation Left side view_38: 670238486
+      Walking animation Left side view_39: 1893592158
+      Walking animation Left side view_4: 347057757
+      Walking animation Left side view_40: -379327718
+      Walking animation Left side view_41: -292017530
+      Walking animation Left side view_42: 1472819401
+      Walking animation Left side view_5: -1864829666
+      Walking animation Left side view_6: -1103122743
+      Walking animation Left side view_7: -1788679284
+      Walking animation Left side view_8: 492950162
+      Walking animation Left side view_9: 1231902525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
