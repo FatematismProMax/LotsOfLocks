@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    Rigidbody2D rb;
+    Rigidbody rb;
     public float moveSpeed = 3.0f;
     public float jumpSpeed = 7.0f;
     Vector3 respawnPos;
@@ -13,14 +13,14 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody>();
         respawnPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 movement = rb.velocity;
+        Vector3 movement = rb.velocity;
 
         if (Input.GetKey(KeyCode.RightArrow)) {
             movement.x = moveSpeed;
@@ -30,20 +30,22 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.UpArrow))
         {
-            movement.y = moveSpeed;
+            movement.z = moveSpeed;
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
-            movement.y = -moveSpeed;
+            movement.z = -moveSpeed;
         }
         else {
             movement.x = 0;
-            movement.y = 0;
+            movement.z = 0;
         }
         
         //if (Input.GetKeyDown(KeyCode.Space) && rb.velocity.y == 0) {
         //    movement.y = jumpSpeed;
         //}
+
+        Debug.Log(movement);
 
         rb.velocity = movement;
     }
