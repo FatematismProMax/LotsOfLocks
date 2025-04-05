@@ -5,15 +5,17 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    Rigidbody2D rb;
+    Rigidbody rb;
     public float moveSpeed = 1;
     bool movingRight;
     public Transform player;
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -36,6 +38,27 @@ public class Enemy : MonoBehaviour
 
         GetComponent<NavMeshAgent>().SetDestination(player.position);
 
+        Vector3 dir = GetComponent<NavMeshAgent>().velocity.normalized;      
+        
+
+
+        if (dir.x < 0.5f)
+        {
+            animator.SetBool("WalkLeft", true);
+            animator.SetBool("WalkDown", false);
+            spriteRenderer.flipX = false;
+        }
+        else if (dir.x > 0.5f)
+        {
+            animator.SetBool("WalkLeft", true);
+            animator.SetBool("WalkDown", false);
+            spriteRenderer.flipX = true;
+        }
+        else if (dir.y < 0.5f)
+        {
+            animator.SetBool("WalkDown", true);
+            animator.SetBool("WalkLeft", false);
+        }
 
     }
 }
