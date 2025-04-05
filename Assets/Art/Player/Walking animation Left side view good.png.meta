@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 80d3a43e21760074d99a3ab3d11484dc
+guid: 5472d2a7afd95fe4a82522acc654ae5a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -162,106 +162,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking animation Left side view_0
+      name: Walking animation Left side view good_0
       rect:
         serializedVersion: 2
         x: 56
         y: 29
         width: 240
         height: 1282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51896095, y: 0.5745422}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52f2ab182661d0d4489217cdeedde882
-      internalID: 1687504041
+      spriteID: d650c114b50342e43b756ebb98b917ea
+      internalID: -454106932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking animation Left side view_2
+      name: Walking animation Left side view good_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 34
-        width: 404
-        height: 1277
+        x: 325
+        y: 23
+        width: 464
+        height: 1288
       alignment: 9
-      pivot: {x: 0.73241746, y: 0.5294116}
+      pivot: {x: 0.6520145, y: 0.57949466}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 859c2188c9a861a47a7661256e99f831
-      internalID: 139462641
+      spriteID: 8a6e8fdb913f14842add44281c39a4cb
+      internalID: 538306354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking animation Left side view_4
+      name: Walking animation Left side view good_4
       rect:
         serializedVersion: 2
         x: 857
-        y: 23
+        y: 0
         width: 238
-        height: 1275
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 1298
+      alignment: 9
+      pivot: {x: 0.5860414, y: 0.584141}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 366e2e8bca186eb4897d1be061e19cbf
-      internalID: 347057757
+      spriteID: 73e809ef8d166024ab944fed4578db1d
+      internalID: 365106237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking animation Left side view_5
+      name: Walking animation Left side view good_5
       rect:
         serializedVersion: 2
-        x: 1090
+        x: 1087
         y: 0
-        width: 373
+        width: 423
         height: 1299
       alignment: 9
-      pivot: {x: 0.7391469, y: 0.5505987}
+      pivot: {x: 0.59682196, y: 0.5683119}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2f57c11bf4aa14d8f7aa4bf87e3ef8
-      internalID: -1864829666
+      spriteID: 381bafe510a888c46a8365aad3248022
+      internalID: -2079528555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walking animation Left side view_7
+      name: Walking animation Left side view good_7
       rect:
         serializedVersion: 2
-        x: 1524
-        y: 19
+        x: 1516
+        y: 14
         width: 240
-        height: 1280
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 1283
+      alignment: 9
+      pivot: {x: 0.5758438, y: 0.5620701}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70ada21116371e24db78e655f8ed3a1a
-      internalID: -1788679284
+      spriteID: 160ca74c845d76a42bbfd4e1271d0003
+      internalID: -573802683
       vertices: []
       indices: 
       edges: []
@@ -277,49 +277,47 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walking animation Left side view_0: 1687504041
-      Walking animation Left side view_1: -2063384261
-      Walking animation Left side view_10: 1177712445
-      Walking animation Left side view_11: 1989184698
-      Walking animation Left side view_12: 624035293
-      Walking animation Left side view_13: 682960332
-      Walking animation Left side view_14: -710659430
-      Walking animation Left side view_15: 223181643
-      Walking animation Left side view_16: 1662243725
-      Walking animation Left side view_17: 1634790212
-      Walking animation Left side view_18: 1422791217
-      Walking animation Left side view_19: 1181390789
-      Walking animation Left side view_2: 139462641
-      Walking animation Left side view_20: 960225396
-      Walking animation Left side view_21: 894076907
-      Walking animation Left side view_22: 1866210730
-      Walking animation Left side view_23: 2087679546
-      Walking animation Left side view_24: 465423129
-      Walking animation Left side view_25: 2015159667
-      Walking animation Left side view_26: -281344484
-      Walking animation Left side view_27: -1599475178
-      Walking animation Left side view_28: 1136837311
-      Walking animation Left side view_29: 1440123385
-      Walking animation Left side view_3: -1539285184
-      Walking animation Left side view_30: 2084158374
-      Walking animation Left side view_31: -1783921485
-      Walking animation Left side view_32: -1826741385
-      Walking animation Left side view_33: 1211722204
-      Walking animation Left side view_34: -1136050202
-      Walking animation Left side view_35: 1098873937
-      Walking animation Left side view_36: -1880103821
-      Walking animation Left side view_37: 1170507912
-      Walking animation Left side view_38: 670238486
-      Walking animation Left side view_39: 1893592158
-      Walking animation Left side view_4: 347057757
-      Walking animation Left side view_40: -379327718
-      Walking animation Left side view_41: -292017530
-      Walking animation Left side view_42: 1472819401
-      Walking animation Left side view_5: -1864829666
-      Walking animation Left side view_6: -1103122743
-      Walking animation Left side view_7: -1788679284
-      Walking animation Left side view_8: 492950162
-      Walking animation Left side view_9: 1231902525
+      Walking animation Left side view good_0: -454106932
+      Walking animation Left side view good_1: -1846149342
+      Walking animation Left side view good_10: 1788787875
+      Walking animation Left side view good_11: -369900922
+      Walking animation Left side view good_12: -2084000808
+      Walking animation Left side view good_13: -1083248394
+      Walking animation Left side view good_14: 1376649329
+      Walking animation Left side view good_15: -874467484
+      Walking animation Left side view good_16: 1493138562
+      Walking animation Left side view good_17: 138958772
+      Walking animation Left side view good_18: -1328451480
+      Walking animation Left side view good_19: 334375494
+      Walking animation Left side view good_2: 538306354
+      Walking animation Left side view good_20: -539798805
+      Walking animation Left side view good_21: -1040809091
+      Walking animation Left side view good_22: -813197859
+      Walking animation Left side view good_23: -1136110295
+      Walking animation Left side view good_24: -2040854952
+      Walking animation Left side view good_25: -1478357503
+      Walking animation Left side view good_26: -652316795
+      Walking animation Left side view good_27: 1635950918
+      Walking animation Left side view good_28: 1877739223
+      Walking animation Left side view good_29: -1516863154
+      Walking animation Left side view good_3: -1185469386
+      Walking animation Left side view good_30: -4128889
+      Walking animation Left side view good_31: -1928335923
+      Walking animation Left side view good_32: -1873407848
+      Walking animation Left side view good_33: 1793907784
+      Walking animation Left side view good_34: 423508206
+      Walking animation Left side view good_35: 1023512006
+      Walking animation Left side view good_36: -195728271
+      Walking animation Left side view good_37: 1488714245
+      Walking animation Left side view good_38: 197628947
+      Walking animation Left side view good_39: 1461093659
+      Walking animation Left side view good_4: 365106237
+      Walking animation Left side view good_40: -1101827852
+      Walking animation Left side view good_5: -2079528555
+      Walking animation Left side view good_6: -118511060
+      Walking animation Left side view good_7: -573802683
+      Walking animation Left side view good_8: -1867244785
+      Walking animation Left side view good_9: -717327674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
